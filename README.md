@@ -14,20 +14,15 @@ Este projeto executa testes de desempenho em duas áreas:
 - **Cálculos Intensivos:** Mede o tempo gasto em operações matemáticas intensivas.
 - **Manipulação do DOM:** Mede o tempo necessário para criar e renderizar elementos no DOM.
 
-Cada teste é executado múltiplas vezes para calcular uma média, e os resultados são apresentados em um gráfico de barras usando [Chart.js](https://www.chartjs.org/).
+Você pode definir o número de iterações para cada teste, aumentando a amostra de dados e obtendo uma média mais confiável dos tempos de resposta. Os resultados são exibidos tanto numericamente quanto em um gráfico de barras utilizando [Chart.js](https://www.chartjs.org/).
 
 ---
 
 ## Funcionalidades
 
-- **Testes Múltiplos:** Executa cada teste várias vezes e calcula a média do tempo de resposta.
-- **Gráfico de Desempenho:** Exibe os resultados em um gráfico de barras para fácil visualização.
-- **Interface Simples:** Design limpo e intuitivo para uma experiência prática.
+- **Amostragem Flexível:** Defina quantas iterações serão realizadas para cada teste.
+- **Média dos Tempos:** Executa cada teste múltiplas vezes para calcular uma média do tempo de resposta.
+- **Gráfico de Desempenho:** Exibe os resultados em um gráfico de barras para visualização rápida.
+- **Interface Simples:** Design limpo e intuitivo para facilitar o uso.
 
 ---
-
-## Instalação
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-benchmark.git
