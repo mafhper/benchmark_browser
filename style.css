@@ -1,0 +1,42 @@
+/* Estilos básicos para a página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Container centralizado */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização do botão */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Área de resultados */
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background: #e2e2e2;
+  border-radius: 5px;
+}
+
+/* Estilização do input de iterações */
+.iterations {
+  margin-bottom: 10px;
+}
+
+.iterations label {
+  margin-right: 10px;
+  font-weight: bold;
+}
